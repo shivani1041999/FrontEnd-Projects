@@ -1,0 +1,74 @@
+body{
+	font-family: serif;
+	margin: 0;
+}
+form{
+	height: 150px;
+	width: 100%;
+	margin: 0;
+	background-image: linear-gradient(to right,#cbcbec  , #deb7bd 50%);
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	/*padding: 5%;*/
+}
+
+button{
+	text-transform: capitalize;
+	padding: 0.5%;
+	width: 20%;
+	height: 40px;
+	font-size: 1rem;
+	/*font-size: 0.5rem;*/
+}
+
+button:hover{
+	box-shadow: 0 0 12px white;
+}
+#dog-breeds{
+	font-size: 1rem;
+	padding: 0.5%;
+	width: 40%;
+	height: 40px;
+}
+
+
+#div2{
+	display: flex;
+	height: 500px;
+	width: 100%;
+	/*border: 1px solid black;*/
+	/*margin: 20px;*/
+}
+#nxt,#breed-image{
+	height: 400px;
+	width: 50%;
+}
+#breed-image img{
+	max-height: 350px;
+	max-width: 400px;
+}
+#nxt a{
+	background-color: white;
+	font-size: 1rem;
+	padding: 1%;
+	border: 1px solid lightblue;
+	height: 30px;
+	width: 20%;
+	text-align: center;
+	
+
+}
+
+#nxt a{
+	text-decoration: none;
+	color: lightblue;
+	/*border: 1px solid lightgrey;*/
+
+}
+
+.flex-center{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}

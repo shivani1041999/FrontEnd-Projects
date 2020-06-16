@@ -1,0 +1,65 @@
+body{
+	font-family: serif;
+	margin: 0;
+}
+form{
+	height: 150px;
+	width: 100%;
+	margin: 0;
+	background-image: linear-gradient(to right,#cbcbec  , #deb7bd 50%);
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	/*padding: 0 30px;*/
+	/*padding: 5%;*/
+}
+
+#div1{
+	min-width: 60%;
+	display: flex;
+	justify-content: space-between;
+	/*align-items: baseline;*/
+}
+
+
+#dog-breeds, #subbreeds{
+	font-size: 1rem;
+	padding: 0.5%;
+	width: 40%;
+	height: 40px;
+}
+#subbreeds{
+	/*margin-left: 20px; */
+}
+
+
+button{
+	text-transform: capitalize;
+	padding: 0.5%;
+	width: 20%;
+	height: 40px;
+	font-size: 1rem;
+	/*font-size: 0.5rem;*/
+}
+
+button:hover{
+	box-shadow: 0 0 12px white;
+}
+
+
+
+#div2{
+	display: flex;
+	height: auto;
+	width: 100%;
+	flex-wrap: wrap;
+	justify-content: center;
+	/*border: 1px solid black;*/
+	/*margin: 20px;*/
+}
+
+#div2 img{
+	max-height: 350px;
+	max-width: 400px;
+	margin: 2%;
+}

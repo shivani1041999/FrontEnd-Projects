@@ -1,0 +1,47 @@
+form{
+	height: 150px;
+	width: 100%;
+	margin: 0;
+	background-image: linear-gradient(to right,#c5cae959  , #580d2661 50%);
+	display: inline-flex;
+	justify-content: space-around;
+	align-items: center;
+	/*padding: 5%;*/
+}
+button{
+	text-transform: capitalize;
+	padding: 0.2%;
+	width: 15%;
+	height: 32%;
+	font-size: 1rem;
+	background-color: white;
+	color: black;
+	font-family: monospace;
+	cursor: pointer;
+	
+}
+
+button:hover{
+	box-shadow: 0 0 12px #cbcbec;
+}
+
+input{
+	height: 30px;
+	padding: 0.2%;
+	font-size: 0.7rem;
+	
+	min-width: 200px;
+
+}
+
+#div2{
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+
+}
+#div2 img{
+	height: 25%;
+	width: 25%;
+	margin: 1%;
+}

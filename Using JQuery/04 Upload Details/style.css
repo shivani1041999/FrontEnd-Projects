@@ -1,0 +1,78 @@
+body{
+
+	margin: 0px;
+}
+
+form{
+	height: 70%;
+	width: 60%;
+}
+form h1{
+	margin: 100px 0 50px 35%;
+}
+form > div{
+	display: flex;
+	justify-content: space-between;
+	width: 70%;	
+	margin-left: 12%;
+}
+label,input{
+	margin: 3% 0 4% 23%;
+	width: 25%;
+	height: 35px;
+	font-size: 1.3rem;
+
+}
+input{
+	padding: 1%;
+	box-sizing: border-box;
+	font-size: 1rem;
+
+}
+/*#name{
+	margin-left: 24%;
+}
+
+#marks{
+	margin-left: 25%;
+}*/
+button{
+	margin: 7% 0 0 40%;
+	padding: 2%;
+	font-size: 1.4rem;
+	font-family: monospace;
+	cursor: pointer;
+
+}
+
+#items{
+	height: 100%;
+	overflow: auto;
+	width: 39%;
+	border-left: 1px solid black;
+	top: 0%;
+	position: absolute;
+	left: 60vw;
+	padding-left: 8px;
+
+}
+
+button:hover{
+	box-shadow: 0 0 14px  grey;
+}
+
+.items{
+	font-size: 1.2rem;
+	margin-top: 10px;
+	padding: 10px 20px;
+}
+
+.items:nth-child(even) {
+    background-color: lightgrey;
+}
+
+.highlight{
+	background-color: forestgreen;
+	color: white;
+	padding: 0 10px;
+}

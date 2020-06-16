@@ -1,0 +1,36 @@
+*{
+	transition-duration: 0.5s;
+}
+
+#outer{
+	height: 40px;
+	width: 140px;
+	border: 2px solid black;
+	border-radius: 20px;
+	margin: auto;
+	margin-top: 50px;
+	padding: 1px;
+	background-color: white;
+	cursor: pointer;
+}
+#inner{
+	height: 40px;
+	width: 40px;
+	background-color: black;
+	border-radius: 50%;
+	margin:initial;
+	
+}
+
+#heading{
+	text-align: center;
+	font-size: 100px;
+}
+
+.color-white {
+    color: white;
+}
+
+.bck-color-black {
+    background-color: black;
+}
